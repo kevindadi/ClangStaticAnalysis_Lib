@@ -1,0 +1,3 @@
+/Volumes/Seagate/411/ClangStaticAnalysis_Lib/cmake-build-debug/CMakeFiles/ClangStaticAnalysis_Lib.dir
+/Volumes/Seagate/411/ClangStaticAnalysis_Lib/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/Seagate/411/ClangStaticAnalysis_Lib/cmake-build-debug/CMakeFiles/rebuild_cache.dir
