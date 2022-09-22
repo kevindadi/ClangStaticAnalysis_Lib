@@ -248,3 +248,27 @@ Parsed CXX implicit link information from above output:
   implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks]
 
 
+Performing C SOURCE FILE Test HAVE_FFI_CALL succeeded with the following output:
+Change Dir: /Volumes/Seagate/411/ClangStaticAnalysis_Lib/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_5b46c && [1/2] Building C object CMakeFiles/cmTC_5b46c.dir/src.c.o
+[2/2] Linking C executable cmTC_5b46c
+
+
+Source file was:
+
+    struct ffi_cif;
+    typedef struct ffi_cif ffi_cif;
+    void ffi_call(ffi_cif *cif, void (*fn)(void), void *rvalue, void **avalue);
+    int main() { ffi_call(0, 0, 0, 0); }
+Performing C SOURCE FILE Test Terminfo_LINKABLE succeeded with the following output:
+Change Dir: /Volumes/Seagate/411/ClangStaticAnalysis_Lib/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_2ae20 && [1/2] Building C object CMakeFiles/cmTC_2ae20.dir/src.c.o
+[2/2] Linking C executable cmTC_2ae20
+
+
+Source file was:
+
+    int setupterm(char *term, int filedes, int *errret);
+    int main() { return setupterm(0, 0, 0); }
