@@ -1,6 +1,6 @@
-/Volumes/Seagate/411/ClangStaticAnalysis_Lib/cmake-build-debug/CMakeFiles/intrinsics_gen.dir
-/Volumes/Seagate/411/ClangStaticAnalysis_Lib/cmake-build-debug/CMakeFiles/omp_gen.dir
-/Volumes/Seagate/411/ClangStaticAnalysis_Lib/cmake-build-debug/CMakeFiles/acc_gen.dir
-/Volumes/Seagate/411/ClangStaticAnalysis_Lib/cmake-build-debug/CMakeFiles/HelloWorld.dir
-/Volumes/Seagate/411/ClangStaticAnalysis_Lib/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Volumes/Seagate/411/ClangStaticAnalysis_Lib/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/kevin/Desktop/ClangStaticAnalysis_Lib/cmake-build-debug/CMakeFiles/intrinsics_gen.dir
+/home/kevin/Desktop/ClangStaticAnalysis_Lib/cmake-build-debug/CMakeFiles/omp_gen.dir
+/home/kevin/Desktop/ClangStaticAnalysis_Lib/cmake-build-debug/CMakeFiles/acc_gen.dir
+/home/kevin/Desktop/ClangStaticAnalysis_Lib/cmake-build-debug/CMakeFiles/HelloWorld.dir
+/home/kevin/Desktop/ClangStaticAnalysis_Lib/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/kevin/Desktop/ClangStaticAnalysis_Lib/cmake-build-debug/CMakeFiles/rebuild_cache.dir
