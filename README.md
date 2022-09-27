@@ -1,4 +1,4 @@
-Here we describe some informal notes about the ESBMC's memory model.
+Here we describe some informal notes about the GJC's memory model.
 
 The C specification demands that absolutely every `data object` has an equivalent representation as a sequence of bytes, whether it is a struct, union, or float. This is how `memcpy` works: you pass it two pointers, and it copies them byte by byte. What this also means is that you can:
  
@@ -10,13 +10,13 @@ The C specification demands that absolutely every `data object` has an equivalen
 
 The trouble comes from the fact that SMT solvers do not like this one bit. It would be OK if we were to treat all variable storage as one big SMT array of bytes, and repeatedly store and load from it. Arbitrary byte accesses would be regular array access to memory. However, then we'd almost certainly have terrible solving performance (the SMT solver would have to explore state space in a fixed order).
 
-What ESBMC does instead is use the primitives that SMT provides (bitvectors, arrays, possibly floatbvs) as variables to store values. That means that whenever we have code like this:
+What GJC does instead is use the primitives that SMT provides (bitvectors, arrays, possibly floatbvs) as variables to store values. That means that whenever we have code like this:
 
 ```
  int foo, bar;
  char *baz = (nondet_bool()) ? (char*)&foo : (char *)&bar;
  unsigned int idx = nondet_uint();
- __ESBMC_assume(idx < sizeof(int));
+ __GJC_assume(idx < sizeof(int));
  baz += idx;
  *baz = 1;
 ```
